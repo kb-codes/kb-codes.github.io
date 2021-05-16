@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+        <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+        <title>KBCODES</title>
+        <link rel="shortcut icon" href="./assets//img/favicon.png" type="image/x-icon">  
+    </head>
+    <body>
+
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><i class='far fa-arrow-alt-circle-up' style='font-size:40px;color:#4070F4'></i></button>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#home" class="nav__logo">KBCODES</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#education" class="nav__link">Education</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Kuldip</span><br> React Native Dev</h1>
+
+                    <a href="mailto:kuldipbadga@gmail.com" class="button">Hire Me</a>
+                    <a href="./assets/resume/kbcodes.pdf" class="button">Resume</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.instagram.com/_kbcodes_/" class="home__social-icon"><i class='bx bxl-instagram'></i></a>
+                    <a href="https://www.youtube.com/channel/UCHGsPF_fVJ0w3vXsnY1Pnmg" class="home__social-icon"><i class='bx bxl-youtube' ></i></a>
+                    <a href="https://github.com/kb-codes" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                </div>
+
+                <div class="home__img">    
+                    <img src="assets/img/perfil.png" alt="">
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/a.jpg" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">I'am Kuldip Makwana</h2>
+                        <p class="about__text">I'm a computer engineer student from the Gujarat Technological University. I’m currently in the 3rd year of The Bachelor of Engineering(B.Eng, or BE).</p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">Profesional Skills</h2>
+                        <p class="skills__text">I’m currently learning React Native. Ask me about React , JavaScript , PHP.</p>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-react skills__icon'></i>
+                                <span class="skills__name">React Native</span>
+                            </div>
+                            <div class="skills__bar skills__react">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-javascript skills__icon'></i>
+                                <span class="skills__name">JavaScript</span>
+                            </div>
+                            <div class="skills__bar skills__js">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">60%</span>
+                            </div>
+                        </div>
+                       
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bx-merge skills__icon'></i>
+                                <span class="skills__name">HTML / CSS / PHP</span>
+                            </div>
+                            <div class="skills__bar skills__html">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-react skills__icon'></i>
+                                <span class="skills__name">ReactJs</span>
+                            </div>
+                            <div class="skills__bar skills__reactjs">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">70%</span>
+                            </div>
+                        </div>
+                       
+                    </div>
+                    
+                    <div>              
+                        <img src="assets/img/about-us.png" alt="" class="skills__img">
+                    </div>
+                </div>
+            </section>
+            <section class="skills section" id="education">
+                <h2 class="section-title">Education</h2>
+
+                <div class=" bd-grid">          
+                    <div>
+                        
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <span class="skills__name">Bachelors of Engineering</span>
+                            </div>
+                            <div class="skills__bar skills__education">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage">2019 - Present</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <span class="skills__name">Diploma in Computer Engineering</span>
+                            </div>
+                            <div class="skills__bar skills__education">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage">2016 - 2019</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <span class="skills__name">SECONDARY(10TH) SCHOOL</span>
+                            </div>
+                            <div class="skills__bar skills__education">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage">2015 - 2016</span>
+                            </div>
+                        </div>
+                </div>
+            </section>
+            
+
+            <!--===== WORK =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">Work</h2>
+
+                <div class="work__container bd-grid">
+                    <div class="work__img">
+                        <a href="https://github.com/kb-codes/netflix-clone">
+                        <img src="assets/img/work1.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="work__img">
+                        <a href="https://github.com/kb-codes/runtime.coding-project">
+                        <img src="assets/img/work2.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="work__img">
+                        <a href="https://www.instagram.com/_kbcodes_/">
+                        <img src="assets/img/work3.jpg" alt="">
+                        </a>
+                    </div>
+                    
+                </div>
+            </section>
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                   
+                    <form onsubmit="return false" class="contact__form">
+                        <input type="text" id="name" placeholder="Name" class="contact__input" />
+                        <input type="mail" id="mail" placeholder="Email" class="contact__input" />
+                        <textarea name="" id="msg" cols="0" rows="10" class="contact__input"></textarea>
+                        <input onclick="sendContact();" type="button" value="Submit" class="contact__button button">
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">KBCODES</p>
+            <div class="footer__social">
+                <a href="https://www.youtube.com/channel/UCHGsPF_fVJ0w3vXsnY1Pnmg" class="footer__icon"><i class='bx bxl-youtube' ></i></a>
+                <a href="https://github.com/kb-codes" class="footer__icon"><i class='bx bxl-github' ></i></a>
+                <a href="https://www.linkedin.com/in/kuldip-badga-576312212" class="footer__icon"><i class='bx bxl-linkedin' ></i></a>
+                <a href="https://instagram.com/_kbcodes" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="https://www.facebook.com/kbcodes/" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+               
+                
+            </div>
+            <p>&#169; 2021 copyright all right reserved</p>
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
+<script>
+
+    function sendContact() 
+    {
+        if(document.getElementById("name").value!="" && document.getElementById("mail").value!="" && document.getElementById("msg").value!="")
+        {
+           
+            swal("Sent!", "Thanks for Connecting", "success"); 
+            document.getElementById("name").value="";
+            document.getElementById("mail").value="";
+            document.getElementById("msg").value="";
+        }
+        else
+        {
+            swal("Error!", "Please Fill all the Fields!", "error");
+        }
+        
+        
+    }
+    
+
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
+
+</script>
