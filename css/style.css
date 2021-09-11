@@ -22,7 +22,7 @@ h6 {
   padding: 0;
 }
 .link {
-  color: #7c2ae8;
+  color: #0e2431;
 }
 .header {
   font-size: xx-large;
@@ -429,7 +429,7 @@ button:focus {
 }
 @media (max-width: 991px) {
   .banner_area .banner_inner {
-    background: #7c2ae8;
+    background: #0e2431;
     width: 100%;
   }
 }
@@ -623,7 +623,7 @@ button:focus {
 }
 .portfolio_area .filters ul li.active,
 .portfolio_area .filters ul li:hover {
-  color: #7c2ae8;
+  color: #0e2431;
 }
 @media (max-width: 767px) {
   .portfolio_area .filters ul li {
@@ -1119,7 +1119,7 @@ button:focus {
   }
 }
 .footer_area .footer_social a i:hover {
-  color: #7c2ae8;
+  color: #0e2431;
 }
 .footer_area .footer_bottom {
   text-align: center;
@@ -1128,5 +1128,5 @@ button:focus {
   margin-bottom: 0;
 }
 .footer_area .footer_bottom a {
-  color: #7c2ae8;
+  color: #0e2431;
 }
