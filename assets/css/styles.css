@@ -83,14 +83,15 @@ img {
 .section-title {
   position: relative;
   font-size: var(--h2-font-size);
-  color: var(--first-color);
+  color: black;
   margin-top: var(--mb-2);
   margin-bottom: var(--mb-4);
   text-align: center;
+  border-top-width: 1px;
+  padding: 5px;
 }
 .section-title::after {
   position: absolute;
-  content: "";
   width: 64px;
   height: 0.18rem;
   left: 0;
@@ -137,7 +138,7 @@ img {
     position: fixed;
     top: var(--header-height);
     right: -100%;
-    width: 50%;
+    width: 30%;
     height: 100%;
     padding: 2rem;
     background-color: var(--second-color);
@@ -150,9 +151,11 @@ img {
 .nav__link {
   position: relative;
   color: #fff;
+  text-decoration: none;
 }
 .nav__link:hover {
   position: relative;
+  text-decoration: none;
 }
 .nav__link:hover::after {
   position: absolute;
@@ -505,4 +508,9 @@ img {
   width: 30px;
   height: 30px;
   margin-right: 10px;
+}
+.footer-logo {
+  align-self: center;
+  width: 150px;
+  height: 150px;
 }

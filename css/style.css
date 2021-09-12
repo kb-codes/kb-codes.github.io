@@ -21,9 +21,6 @@ h6 {
   margin: 0;
   padding: 0;
 }
-.link {
-  color: #0e2431;
-}
 .header {
   font-size: xx-large;
   font-weight: 900;
@@ -157,6 +154,7 @@ button:focus {
   color: #222;
   box-shadow: none;
   background-clip: border-box;
+  text-decoration: none;
 }
 .header_area {
   position: absolute;
@@ -578,7 +576,9 @@ button:focus {
 .single-portfolio-item {
   text-align: center;
   padding: 20px;
+  margin: 10px;
   border: 1px solid #dcdcdc;
+  border-radius: 5px;
   box-shadow: none;
   -webkit-transition: all 0.2s ease-in-out 0s;
   -moz-transition: all 0.2s ease-in-out 0s;
@@ -591,6 +591,38 @@ button:focus {
   -moz-box-shadow: 0 0 5px 5px rgba(118, 85, 225, 0.5);
   -webkit-box-shadow: 0 0 5px 5px rgba(118, 85, 225, 0.5);
 }
+.project-image {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.view-project-btn {
+  font-family: Rubik, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 42px;
+  text-transform: uppercase;
+  background-image: linear-gradient(#fff, #fff),
+    radial-gradient(circle at top left, #008bcc, #7c2ae8);
+  border-width: 1px;
+  border-top-width: 0px;
+  border-color: #7c2ae8;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  color: #222;
+  box-shadow: none;
+  background-clip: border-box;
+}
+.about__text {
+  font-family: Roboto, sans-serif;
+}
+
+.view-project-btn:hover {
+  background-image: linear-gradient(to bottom, #008bcc 0, #7c2ae8 100%),
+    radial-gradient(circle at top left, #008bcc, #7c2ae8);
+  color: #fff;
+  box-shadow: 0 10px 30px rgba(118, 85, 225, 0.3);
+}
+
 .portfolio_area {
   padding-bottom: 120px;
 }
@@ -968,6 +1000,7 @@ button:focus {
     background-image: none !important;
     background-color: #fcf8ff;
   }
+
   .footer_area .col-sm-6 {
     margin-bottom: 30px;
   }
